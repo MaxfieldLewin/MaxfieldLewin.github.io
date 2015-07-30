@@ -1,0 +1,37 @@
+/* Reset */
+body, h1, h2, p, section, article, ul, li, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  text-decoration: inherit;
+  background: transparent;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
