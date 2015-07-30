@@ -35,3 +35,66 @@ img {
   display: block;
   clear: both;
 }
+
+/* Header */
+
+.name-header {
+  display: block;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif;
+  color: #111111;
+  background-color: #DDDDDD;
+  text-align: center;
+}
+
+/* Sidebar */
+.sidebar-content-container {
+  height: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+.sidebar {
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding: 20px;
+}
+
+.sidebar-portrait {
+  width: 80%;
+  border-radius: 25%;
+}
+
+.sidebar-list {
+  display: block;
+}
+
+.sidebar-list-item {
+  display: block;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+.sidebar-list-item:first-child{
+  border-top: 1px solid #AAAAAA;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* Content */
+
+.content {
+  float: right;
+  width: 85%;
+  height: 100%;
+  padding: 20px;
+}
+
+.intro {
+
+}
