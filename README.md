@@ -1,2 +1,2 @@
-[MaxfieldLewin.com][site]
-[site]: http://www.maxfieldlewin.com
+[maxfieldlewin.com][site]
+[site]: http://maxfieldlewin.com
